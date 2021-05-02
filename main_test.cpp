@@ -32,7 +32,7 @@ TEST_CASE("dapat menambah dan menghapus edge", "[case_2]") {
   REQUIRE(!g.is_edge(1, 3));
 
   g.add_edge(1, 3);
-  REQUIRE(g.is_edge(1, 2));
+  REQUIRE(g.is_edge(1, 3));
   REQUIRE(g.is_edge(1, 3));
   REQUIRE(g.is_edge(2, 1));
   REQUIRE(!g.is_edge(2, 3));
